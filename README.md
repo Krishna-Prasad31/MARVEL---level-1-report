@@ -49,3 +49,13 @@ The objective of this task was to use DynamoDB from AWS and creat aa simplw logi
 - when you try to login with the already registered credentials you get a message called "Login Successsful" with a status code of 200
 - If you enter wrong credentials you get to see "User not found message"
   
+# Task 3: Create an application on EC2 instance
+**EC2(Elastic Compute Cloud):** It is a service from the *Amazon Web Services* in which they give you access to virtual computer so that you can run your website or webapplication the internet accessible to ayone with the public ip. In your local machine you are the only person who can see and run the website or webapp. But with EC2, your application runs on a virtual machine in the Amazons data center where your code sits and runs on cloud giving access to the public.
+Some important components of EC2:
+- AMI(Amazon Machine Image): It contains the OS and software. for my task i used default Amazon Linux.
+- Instance type: here you can select different instance types based on the scale of your project. i built a simple webapp so i used t3 micro which also comes under free tier. for larger porjects you can use t3 medium.
+- Security groups: These are firewalls which controls the inbound and outbound traffic based on what security groups we set. For this task i allowed SSH, HTTP and HTTPS.
+
+In this task  i learned how to create, configure and manage EC2. For this task i launched a simple temperature conversion app. I learned the basic commands of the CLI and installed httpd then cloned the git repository of the application, and then edited the inbound rules and allowed HTTP and HTTPS in the security groups and finally enabled and started the httpd. Once all this was done the application was up and running on the public ip.
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(501).png?raw=true)
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(502).png?raw=true)
