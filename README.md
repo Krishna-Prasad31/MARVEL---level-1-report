@@ -59,3 +59,13 @@ Some important components of EC2:
 In this task  i learned how to create, configure and manage EC2. For this task i launched a simple temperature conversion app. I learned the basic commands of the CLI and installed httpd then cloned the git repository of the application, and then edited the inbound rules and allowed HTTP and HTTPS in the security groups and finally enabled and started the httpd. Once all this was done the application was up and running on the public ip.
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(501).png?raw=true)
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(502).png?raw=true)
+
+
+# Task 4: AWS Cloudfront and S3 Buckets
+**CloudFront** is the *CDN*(content delivery network) of *Amazon Web Services*. It delivers contents such as photos, videos, applications, etc... around the world with low latency. When a user user searches for a data for the first time CloudFront delivers the data from the origin(S3), once this happens it caches the data and then when another user else here searches for the same data the data is delivered the data is delivered instantly because it was chached already that is why it did not go to origin to find the data, this ensures low latency quick response.
+
+**Amazon Simple Storage Service:** S3 is an object storage service , here we can store photos, videos, codes, PDFs,etc... In S3 we have to ceate a bucket with a unique name that serves as the container inside which the data resides. S3 can host static websites.
+
+In this task i created an S3 bucket with an image of an island called Tahiti which was in a html file. In the CloudFront the I completed the required confifurations and set the created S3 bucket with static webpage as the origin. once the data is cached it is stored in edge locations in the world.You could apply Ddos portection. Invalidation removes files from the CDN cache so users get the updated version.
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(536).png?raw=true)
+
