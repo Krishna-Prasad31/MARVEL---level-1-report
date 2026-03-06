@@ -69,3 +69,24 @@ In this task  i learned how to create, configure and manage EC2. For this task i
 In this task i created an S3 bucket with an image of an island called Tahiti which was in a html file. In the CloudFront the I completed the required confifurations and set the created S3 bucket with static webpage as the origin. once the data is cached it is stored in edge locations in the world.You could apply Ddos portection. Invalidation removes files from the CDN cache so users get the updated version.
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(536).png?raw=true)
 
+# Task 5: OSI Model
+**Open Systems Interconnections(OSI)** is a framework used to understand how different systems communicate between each other over a network(Ex: windows machine communication with Mac machine).It is divided into seven layers , each responsible for specific function in the process of data transmission , ranging from physical hardware connections to high-level application interactions.
+
+The seven layers are :
+| Sl No | Layer |
+|-------|-------|
+| 7 | Application|
+| 6 | Presentation Layer|
+| 5 | Session |
+| 4 | Transport |
+| 3 | Network |
+| 2 | Data-Link |
+| 1 | Physical Layer |
+
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/OSI%20Model.drawio%20(1).png?raw=true)
+![Website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/ChatGPT_Image_Sep_15_2025_11_29_37_AM.webp?raw=true)
+
+# Task 6: Kali Linux
+Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.
+The obective of this task is to perform a penetreation testing on a virtual machine using Kali liux.
+Firstly i installed virtual box which serves and a platform to run kali
