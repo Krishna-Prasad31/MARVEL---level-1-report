@@ -89,4 +89,21 @@ The seven layers are :
 # Task 6: Kali Linux
 Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.
 The obective of this task is to perform a penetreation testing on a virtual machine using Kali liux.
-Firstly i installed virtual box which serves and a platform to run kali
+Firstly i installed virtual box which serves and a platform to run Kali, and then i installed Kali Linux from their website and ran it in the virtual box. After all the initial setup i performed the penetration testing.
+
+**What is Penetration testing ?**
+Penetration testing(Pentesting) is practice where ethical hackers attempt to identify vulnerabilities in a system before malicious hackers could find and exploit it. Pentest involves scanning networks, identifying open ports, Detecting running services and finding vulnerabilities. In this task we perform pentest using Nmap
+
+**Nmap(Network mapper):** Nmap is an open-source network scanning tool used to discover devices, identify open ports, detect services and their versions, and gather information about operating systems on a network.
+
+For this testing set the network adapter 1 attached to *Bridged Adapter*, by doing this the LAN/WiFi detects Kali as a real machine eventhough it is running on a virtual environment.
+
+- Firstly I public IP address of the host windows device because i planned to do pentest on this device.
+- I used ping to test of it the target device was in reach. here exchange of data packets confirms the connection.
+- Then i used nmap to to look for ports , its state and services.
+- Next i did service detection.
+- Finally found out the OS and other info.
+![Nmap](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/WhatsApp%20Image%202026-03-07%20at%2001.36.49%20(1).jpeg?raw=true)
+![Nmap](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/WhatsApp%20Image%202026-03-07%20at%2001.36.49.jpeg?raw=true)
+
+A shell is a command-line interface that allows users to interact with the operating system by entering commands. In Kali Linux, the Bash shell is commonly used to execute system commands and security tools. During this task, the shell was used to run the Nmap tool from the Kali Linux terminal to scan the target system and identify open ports and services running on the machine. The shell acts as an intermediary between the user and the operating system, enabling efficient control and execution of penetration testing tools.
