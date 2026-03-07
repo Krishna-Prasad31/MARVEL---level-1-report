@@ -140,3 +140,36 @@ For this task I created a simple chat application that used AES encryption algor
 
 ![client.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(540).png?raw=true)
 ![server.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(541).png?raw=true)
+
+
+# Task 8: IP Addressing and Web Scraping
+
+The internet relies on various networking protocols and addressing mechanisms to enable communication between computers. One of the most important concepts in networking is IP addressing, which allows devices to be uniquely identified on a network.
+
+An **IP address** is a 32-bit number. It uniquely identifies a host (computer or other device, such as a printer or router) on a TCP/IP network.
+
+**TCP/IP Protocol**
+
+It is the fundamental communication protocol used on the internet.
+
+**TCP(Transmission Control Protocol)** 
+- Ensures reliable connection
+- It breaks data into smaller packets
+
+**IP(Internet Protocol):**
+- It is responsible for routing the packets to the correct destination
+
+Together they ensure the data is correctly transported from client to server.
+
+**Web Scraping:**
+
+Web scraping is the automatic method of extracting huge amounts of data from websites. The data that we get is usually HTML , to make it easier to read and to list out the contents parsing of this HTML is done through a python library called as BeautifulSoup.
+
+You can even scrap an entire website or specific data the user wants(Eg: scraping an amazon page for fitness wrist band).
+
+Here the scraper i used was a python program. the program scrapes data from website and then it uses Beautiful soup to parse the HTML and then a CSV file is generated for better readability. The website i scraped was [Fake Python Job Listings](https://realpython.github.io/fake-jobs/)
+
+![website](https://media.geeksforgeeks.org/wp-content/uploads/20251112161655543930/export_cdc1ce8d-afd8-4255-853d-85976a2c737b.png)
+
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(527).png?raw=true)
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(526).png?raw=true)
