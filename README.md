@@ -107,3 +107,36 @@ For this testing set the network adapter 1 attached to *Bridged Adapter*, by doi
 ![Nmap](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/WhatsApp%20Image%202026-03-07%20at%2001.36.49.jpeg?raw=true)
 
 A shell is a command-line interface that allows users to interact with the operating system by entering commands. In Kali Linux, the Bash shell is commonly used to execute system commands and security tools. During this task, the shell was used to run the Nmap tool from the Kali Linux terminal to scan the target system and identify open ports and services running on the machine. The shell acts as an intermediary between the user and the operating system, enabling efficient control and execution of penetration testing tools.
+
+# Task 7: Encryption techniques
+Data Encrytion is the process of scrambling data from readable to unreadable format(cipher text) and parties with authrization can unscrable the data to read the data. This is necessary because it secures coinfidential piece of information to stay confidential on the internet , so no unauthorized party gets to read the data even if the data is retrieved through backdoor access(eg: servers). The data here could be anything like files, documents, messages , etc..
+
+**Caesar Cipher:** The Caesar Cipher shifts each letter in the plaintext by a fixed number of positions in the alphabet. This method is simple but breaks easily with bruteforcing
+
+**Vigenère Cipher:** The Vigenère cipher is an improvement over Caesar cipher. Instead of a fixed shift, it uses a keyword to determine the shift value for each letter.
+
+**Substitution Cipher:** In substitution ciphers, each letter of the plaintext is replaced with another letter based on a predefined mapping.
+
+We can broadly group data encryption methods into two categories:
+
+**Symmetric Encryption:**
+
+In these methods of Encryption we use a single key to encrypt plaintext and decrypt ciphertext, the private access to the key with the sender and the receiver.
+
+Some common symmetric algorithms are: 
+- AES(Advanced Encryption Standard)
+- DES(Data Encryption Standard)
+- TripleDES
+
+**Asymmetric Encryption**
+
+In asymmetric encryption, two keys are used: a public key and a private key. Separate keys are used for both the encryption and decryption processes:
+- The public key, as the name suggests, is either publicly available or shared with authorized recipients.
+- The corresponding private key is required to access data encrypted by the public key. The same public key will not work to decrypt the data in this technique.
+
+Examples: RSA(Rivest Shamir Adleman), ECC(Elliptic Curve Cryptography)
+
+For this task I created a simple chat application that used AES encryption algorithm. Here the AES uses symmetric encryption to encrypt the entered message there is a use of private key here. Here both server and client have the key. The client message is converted into bytes then encrypted using AES and then is sent to the server using socket and is decoded in the server side usig the private key.
+
+![client.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(540).png?raw=true)
+![server.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(541).png?raw=true)
