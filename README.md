@@ -177,3 +177,20 @@ Here the scraper i used was a python program. the program scrapes data from webs
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(526).png?raw=true)
 
 [Code](https://github.com/Krishna-Prasad31/web-scraper)
+
+# Task 9: Socket.IO
+
+Socket.IO is a library that enables low-latency, bidirectional and event-based communication between a client and a server.
+
+In a normal scenario the communication between client and server happens where the client sends a request to the server and the server responds, once this cycle is completed the connection is closed. Imagine that we wanted to build a realtime chat application, in this case when the message is sent to the server, the messages stays in the server for the client on the other side to see, the client has to repeatedly send request to the server asking if he has got a message until he finally see the message. This method works but it is an overkill, this repeated sending of request is called *Polling*, if there are many clients and all of them start polling all at once , this creates a load on server , this can impact the server negatively.
+
+One of the better solutions for this problem is to not closing the connection once a request-response cycle is completed, instead we send a updrade header to websocket message through HTTP to the server. When the upgrade of websockets is done correctly the termination of the connection is out of equation. hence a bi-directional connection is established. In a realtime chatting application this avoids polling beacuse the connection didnt cease, so load on the server is reduced this makes a better communication between multiple persons.
+
+Socket.IO enables real-time communication in chat applications by establishing a persistent connection between client and server, allowing instant bidirectional message exchange. It initially connects using HTTP and upgrades to WebSocket when possible, ensuring low latency and reliable communication.
+
+*Note: If WebSockets are not supported, Socket.IO automatically falls back to HTTP Long Polling*
+
+![website](https://miro.medium.com/1*3JZEcCK-Qzafd0EVwBeXGQ.png)
+![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(542).png?raw=true)
+![Website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(543).png?raw=true)
+[Code](https://github.com/Krishna-Prasad31/Socket.Io-Realtime-Chat-Application/tree/master)
