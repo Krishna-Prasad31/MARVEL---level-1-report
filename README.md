@@ -141,6 +141,8 @@ For this task I created a simple chat application that used AES encryption algor
 ![client.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(540).png?raw=true)
 ![server.py](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(541).png?raw=true)
 
+[CODE](https://github.com/Krishna-Prasad31/encryption-)
+
 
 # Task 8: IP Addressing and Web Scraping
 
@@ -173,3 +175,5 @@ Here the scraper i used was a python program. the program scrapes data from webs
 
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(527).png?raw=true)
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(526).png?raw=true)
+
+[Code](https://github.com/Krishna-Prasad31/web-scraper)
