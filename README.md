@@ -194,3 +194,54 @@ Socket.IO enables real-time communication in chat applications by establishing a
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(542).png?raw=true)
 ![Website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(543).png?raw=true)
 [Code](https://github.com/Krishna-Prasad31/Socket.Io-Realtime-Chat-Application/tree/master)
+
+
+# Task 10: IaaS, PaaS and SaaS
+
+Cloud computing providers provide computing  services such as database, storage, servers, networking, and softwares over the internet. Organisations can access these services on demand from cloud companies like AWS(Amazon web services), Google cloud, Microsoft Azure.
+
+These services of cloud are mainly delivered through 3 main models:
+- Infrastructure as a Service(IaaS)
+- Platform as a Service(PaaS)
+- Software as a Service(SaaS)
+
+## 1. Infrastructure as a Service(IaaS):
+IaaS provides computing resources over the internet , these are virtual resources. Here the cloud providers actually provide the infrastructure required such as virtual machines, storage and networking, while the user manages the software, OS and the application. It eliminates the need to manage physical hardware, offering flexible scalability for businesses of all sizes.
+
+A tech startup might want to scale their resources to meet the growing traffic. In such cases resorting to IaaS is the best choice, they can easily increase their server capacity without needing to investing in expensive hardware.
+
+Examples
+- Amazon EC2
+- Microsoft Azure Virtual Machines
+- Google Compute Engine
+
+
+## 2. Platform as a Service(PaaS):
+Platform as a Service (PaaS) is a cloud computing model designed specifically for developers and application delivery teams.It provides a complete, pre-configured, and managed cloud environment that allows developers to build, test, deploy, and scale applications without the burden of managing the underlying infrastructure.PaaS is aimed at developers who want to focus on building applications rather than managing hardware or operating system.
+
+While IaaS provides the raw building blocks PaaS provides the runtime environments, middleware, and development tools necessary to create custom applications from scratch.
+
+A software development company running SaaS product can deploy their web application without worrying about setting up servers, networking, or storage.
+They can use Google App Engine or AWS Elastic Beanstalk to deploy their web application.
+
+Examples:
+- AWS Lambda
+- Google App Engine
+- Google Cloud
+- IBM Cloud
+
+## Software as a Service(SaaS):
+Software as a Service (SaaS) provides fully functional software applications over the internet. Users can access the software through a web browser. The cloud provider manages everything including infrastructure, platform, and application updates. It is the most widely used and recognizable form of cloud computing today.
+
+SaaS applications are rented on a subscription basis and accessed directly through a web browser or thin client. It Eliminates the need for local software installation, maintenance, and hardware provisioning. It is accessible from anywhere in the world using internet-connected devices (laptops, tablets, smartphones).
+
+Companies use Salesforce for customer relationship management (CRM), Microsoft 365 for office productivity tools, and Zoom for communication and meetings. All of these are SaaS products, which require no installation or maintenance by the user.
+
+Examples:
+- Salesforce
+- Google Workspace
+- Microsoft 365
+- Zoom
+- Slack
+
+![cloud services](https://dachou.github.io/assets/20180928-cloud-service-models-20100115.png)
