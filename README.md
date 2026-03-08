@@ -62,7 +62,7 @@ In this task  i learned how to create, configure and manage EC2. For this task i
 
 
 # Task 4: AWS Cloudfront and S3 Buckets
-**CloudFront** is the *CDN*(content delivery network) of *Amazon Web Services*. It delivers contents such as photos, videos, applications, etc... around the world with low latency. When a user user searches for a data for the first time CloudFront delivers the data from the origin(S3), once this happens it caches the data and then when another user else here searches for the same data the data is delivered the data is delivered instantly because it was chached already that is why it did not go to origin to find the data, this ensures low latency quick response.
+**CloudFront** is the *CDN*(content delivery network) of *Amazon Web Services*. It delivers contents such as photos, videos, applications, etc... around the world with low latency. When a user searches for a data for the first time CloudFront delivers the data from the origin(S3), once this happens it caches the data and then when another user elsewhere searches for the same data the data is delivered the data is delivered instantly because it was chached already that is why it did not go to origin to find the data, this ensures low latency quick response.
 
 **Amazon Simple Storage Service:** S3 is an object storage service , here we can store photos, videos, codes, PDFs,etc... In S3 we have to ceate a bucket with a unique name that serves as the container inside which the data resides. S3 can host static websites.
 
