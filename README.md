@@ -66,7 +66,7 @@ In this task  i learned how to create, configure and manage EC2. For this task i
 
 **Amazon Simple Storage Service:** S3 is an object storage service , here we can store photos, videos, codes, PDFs,etc... In S3 we have to ceate a bucket with a unique name that serves as the container inside which the data resides. S3 can host static websites.
 
-In this task i created an S3 bucket with an image of an island called Tahiti which was in a html file. In the CloudFront the I completed the required confifurations and set the created S3 bucket with static webpage as the origin. once the data is cached it is stored in edge locations in the world.You could apply Ddos portection. Invalidation removes files from the CDN cache so users get the updated version.
+In this task i created an S3 bucket with an image of an island called Tahiti which was in a html file. In the CloudFront the I completed the required configurations and set the created S3 bucket with static webpage as the origin. once the data is cached it is stored in edge locations in the world.You could apply Ddos portection. Invalidation removes files from the CDN cache so users get the updated version.
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(536).png?raw=true)
 
 # Task 5: OSI Model
