@@ -39,7 +39,7 @@ All the three have their own advantages and disadvantages.
 
 **No SQL:** *Not Only SQL* is a *non relational database* that doesnot use SQL, here the data is not stored in related tables as columns or rows but instead it stores as: 1) JSON like docs(MongoDB) 2) Key value pairs(DynamoDB) 3) Column data storage (Apache Cassandra) 4) Graph databases(Neo4j). This is more scalable because of its dynamic schema
 
-The objective of this task was to use DynamoDB from AWS and creat aa simplw login system.
+The objective of this task was to use DynamoDB from AWS and creat a simple login system.
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(480).png?raw=true)
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(478).png?raw=true)
 ![website](https://github.com/Krishna-Prasad31/MARVEL---level-1-report/blob/main/Screenshot%20(533).png?raw=true)
